@@ -12,3 +12,4 @@ Friends List with Ruby in Rails
 
 - Creating DB table with scaffold:
     - rails g scaffold friends first_name:string last_name:string email:string phone:string twitter:string
+    - rails db:migrate
