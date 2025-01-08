@@ -62,4 +62,10 @@ Friends List with Ruby in Rails
                 end'
                 to 'Gemfile'
             - Move 'gem "sqlite3", ">= 1.4"' to development group
+
+        -   Certifique-se de que as configurações no arquivo config/environments/production.rb estejam corretas. Por exemplo, verifique se o host está configurado corretamente:
+            - config.action_mailer.default_url_options = { host: 'your-app-name.herokuapp.com' }
+
+        - Push to Heroku
+            - git push heroku main
  
