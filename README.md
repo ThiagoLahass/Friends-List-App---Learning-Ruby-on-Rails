@@ -39,3 +39,9 @@ Friends List with Ruby in Rails
     - <% if friend.user == current_user %>
 
 - Style Modifications
+
+- Fun With the Controller
+    - Every page (view) has it respective controller, and you can acess its variables from the view
+    - It allows you than separate the view from the hard code, front from back end
+
+- Git, Github and Heroku
