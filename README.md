@@ -68,4 +68,8 @@ Friends List with Ruby in Rails
 
         - Push to Heroku
             - git push heroku main
+
+        - Migrate DB to production
+            - heroku run rails db:migrate
+
  
