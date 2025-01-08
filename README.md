@@ -45,3 +45,21 @@ Friends List with Ruby in Rails
     - It allows you than separate the view from the hard code, front from back end
 
 - Git, Github and Heroku
+    - Heroku
+        - Install
+            - npm install -g heroku
+            - heroku --version
+            - heroku login
+            - heroku create
+            - heroku rename 'yourwebsitename'
+            - heroku keys:add
+        
+        - Change the developement DB to a production DB
+            - Add:
+                'group :production do
+                    gem 'pg', '~> 1.5', '>= 1.5.9'
+                    #gem 'rails_12factor', '0.0.2'
+                end'
+                to 'Gemfile'
+            - Move 'gem "sqlite3", ">= 1.4"' to development group
+ 
