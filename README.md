@@ -35,7 +35,7 @@ Friends List with Ruby in Rails
     - Add in function 'friend_params' of 'friends_controller.rb' in 'permit': ':user_id'
     - Add 'before_actions' to verify only the correct user can do changes
 
-- Exibindo apenas o que pertence ao usuário atual:
+- Showing only what belongs to current user:
     - <% if friend.user == current_user %>
 
 - Style Modifications

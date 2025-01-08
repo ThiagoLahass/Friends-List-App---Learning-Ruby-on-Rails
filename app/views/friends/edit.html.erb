@@ -6,5 +6,6 @@
 
 <div style="display:flex; flex-direction:row; gap:10px">
   <%= link_to "Show this Friend", @friend, class:"btn btn-secondary" %>
+  <%= link_to 'Delete this Friend', @friend, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
   <%= link_to "Back to Friends", friends_path, class:"btn btn-dark" %>
 </div>
